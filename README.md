@@ -147,6 +147,7 @@ ecommerce-microservices/
 │── docker-compose.yml
 
 ## Running the Project
+---
 
 Clone the repository
 git clone https://github.com/your-username/ecommerce-microservices.git
@@ -164,5 +165,3 @@ Product Service	| 8081
 Order Service	| 8082
 Inventory Service |	8083
 Keycloak	| 8181
-
-
