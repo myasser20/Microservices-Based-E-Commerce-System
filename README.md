@@ -133,11 +133,17 @@ Each service has its own responsibility and can be developed, deployed, and scal
 ## Project Structure
 
 ecommerce-microservices/
+
 │── api-gateway/
+
 │── discovery-server/
+
 │── product-service/
+
 │── order-service/
+
 │── inventory-service/
+
 │── docker-compose.yml
 
 ## Running the Project
@@ -145,18 +151,18 @@ ecommerce-microservices/
 Clone the repository
 git clone https://github.com/your-username/ecommerce-microservices.git
 
-Build the services
+# Build the services
 mvn clean install
 
-Run with Docker
+## Run with Docker
 docker-compose up -d
 
 ## Service Ports
-API Gateway	8080
-Eureka Server	8761
-Product Service	8081
-Order Service	8082
-Inventory Service	8083
-Keycloak	8181
+API Gateway | 8080
+Eureka Server	| 8761
+Product Service	| 8081
+Order Service	| 8082
+Inventory Service |	8083
+Keycloak	| 8181
 
-ce Graduate | Backend Developer
+
