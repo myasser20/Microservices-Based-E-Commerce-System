@@ -160,8 +160,13 @@ docker-compose up -d
 
 ## Service Ports
 API Gateway | 8080
+
 Eureka Server	| 8761
+
 Product Service	| 8081
+
 Order Service	| 8082
+
 Inventory Service |	8083
+
 Keycloak	| 8181
